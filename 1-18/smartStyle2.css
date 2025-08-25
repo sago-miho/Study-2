@@ -1,0 +1,124 @@
+ /*ウィンドウ幅が最大767pxまでの場合に適用（タブ用）*/
+ 
+@media screen and (max-width: 767px) {
+
+    #wrapper {
+
+        width: 300px;
+        
+    }
+
+    .FFCE7a {
+
+        width: 300px;
+
+    }
+
+    .blue{
+
+        width: 100px;
+
+    }
+
+    .F89C9C {
+
+        width: 75px;
+
+    }
+
+    .C2FFC8 {
+
+        width: 125px;
+
+    }
+
+    .FFC2C5 {
+
+        width: 125px;
+
+   }
+
+   .FFF083 {
+
+        width: 200px;
+
+   }
+
+   .BEA5FF {
+
+        width: 300px;
+
+   }
+    
+}
+
+/* ウィンドウ幅が最大479pxまでの場合に適用（スマホ用） */
+
+@media screen and (max-width: 479px) {
+
+    #wrapper {
+
+        width: 150px;
+
+    }
+
+    .FFCE7a{
+
+        float: none;
+
+        width: 150px;
+
+    }
+
+    .blue {
+
+        float: none;
+
+        height: 100px;
+
+        width: 150px;
+
+    }
+
+    .F89C9C {
+
+        float: none;
+
+        height: 100px;
+
+        width: 150px;
+
+    }
+
+    .C2FFC8 {
+
+        float: none;
+
+        width: 150px;
+
+    }
+
+    .FFC2C5 {
+
+        float: none;
+
+        width: 150px;
+
+    }
+
+    .FFF083 {
+
+        float: none;
+
+        width: 150px;
+
+    }
+
+    .BEA5FF {
+
+        float: none;
+
+        width: 150px;
+    }
+    
+}
