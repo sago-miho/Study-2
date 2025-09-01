@@ -80,13 +80,7 @@
 
 }
 
-.long-boxes{
-
-    width: 140px;
-
-    height: 40px;
-
-    background-color: #FFF;
+.frame{
 
     margin-left: 40px;
 
@@ -96,9 +90,22 @@
 
     margin-bottom: 40px;
 
+}
+
+.long-boxes{
+
+    width: 140px;
+
+    height: 40px;
+
+    background-color: #FFF;
+
+    margin-bottom: 10px;
+
     padding: 5px 5px;
 
 }
+
 .long-box{
 
     width: 140px;
