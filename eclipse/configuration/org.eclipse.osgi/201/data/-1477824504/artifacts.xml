@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='C:\Java\Study-2\eclipse\dropins\Subversive' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
+  <properties size='1'>
+    <property name='p2.timestamp' value='1759196360700'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='17'>
+    <artifact classifier='osgi.bundle' id='lz4-java' version='0.0.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='370137'/>
+        <property name='download.size' value='370137'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Java/Study-2/eclipse/dropins/Subversive/eclipse/plugins/lz4-java_0.0.0.jar'/>
+        <property name='file.name' value='C:\Java\Study-2\eclipse\dropins\Subversive\eclipse\plugins\lz4-java_0.0.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.tmatesoft.svnkit.svnkit' version='1.10.11'>
+      <properties size='2'>
+        <property name='artifact.size' value='4368825'/>
+        <property name='download.size' value='4368825'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Java/Study-2/eclipse/dropins/Subversive/eclipse/plugins/org.tmatesoft.svnkit.svnkit_1.10.11.jar'/>
+        <property name='file.name' value='C:\Java\Study-2\eclipse\dropins\Subversive\eclipse\plugins\org.tmatesoft.svnkit.svnkit_1.10.11.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.team.svn.help' version='5.1.0.v20250305-0809'>
+      <properties size='2'>
+        <property name='artifact.size' value='2929890'/>
+        <property name='download.size' value='2929890'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Java/Study-2/eclipse/dropins/Subversive/eclipse/plugins/org.eclipse.team.svn.help_5.1.0.v20250305-0809.jar'/>
+        <property name='file.name' value='C:\Java\Study-2\eclipse\dropins\Subversive\eclipse\plugins\org.eclipse.team.svn.help_5.1.0.v20250305-0809.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.team.svn.ui.startup' version='5.1.0.v20250305-0809'>
+      <properties size='2'>
+        <property name='artifact.size' value='17716'/>
+        <property name='download.size' value='17716'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Java/Study-2/eclipse/dropins/Subversive/eclipse/plugins/org.eclipse.team.svn.ui.startup_5.1.0.v20250305-0809.jar'/>
+        <property name='file.name' value='C:\Java\Study-2\eclipse\dropins\Subversive\eclipse\plugins\org.eclipse.team.svn.ui.startup_5.1.0.v20250305-0809.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.team.svn.ui' version='5.1.0.v20250305-0809'>
+      <properties size='2'>
+        <property name='artifact.size' value='2497579'/>
+        <property name='download.size' value='2497579'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Java/Study-2/eclipse/dropins/Subversive/eclipse/plugins/org.eclipse.team.svn.ui_5.1.0.v20250305-0809.jar'/>
+        <property name='file.name' value='C:\Java\Study-2\eclipse\dropins\Subversive\eclipse\plugins\org.eclipse.team.svn.ui_5.1.0.v20250305-0809.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ru.arsysop.svn.connector.svnkit1_10' version='1.0.0.v20250112-1200'>
+      <properties size='2'>
+        <property name='artifact.size' value='214216'/>
+        <property name='download.size' value='214216'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Java/Study-2/eclipse/dropins/Subversive/eclipse/plugins/ru.arsysop.svn.connector.svnkit1_10_1.0.0.v20250112-1200.jar'/>
+        <property name='file.name' value='C:\Java\Study-2\eclipse\dropins\Subversive\eclipse\plugins\ru.arsysop.svn.connector.svnkit1_10_1.0.0.v20250112-1200.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.tmatesoft.svnkit.svnkit-javahl16' version='1.10.11'>
+      <properties size='2'>
+        <property name='artifact.size' value='463952'/>
+        <property name='download.size' value='463952'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Java/Study-2/eclipse/dropins/Subversive/eclipse/plugins/org.tmatesoft.svnkit.svnkit-javahl16_1.10.11.jar'/>
+        <property name='file.name' value='C:\Java\Study-2\eclipse\dropins\Subversive\eclipse\plugins\org.tmatesoft.svnkit.svnkit-javahl16_1.10.11.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.antlr.runtime' version='3.5.3.v20230929-1400'>
+      <properties size='2'>
+        <property name='artifact.size' value='193478'/>
+        <property name='download.size' value='193478'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Java/Study-2/eclipse/dropins/Subversive/eclipse/plugins/org.antlr.runtime_3.5.3.v20230929-1400.jar'/>
+        <property name='file.name' value='C:\Java\Study-2\eclipse\dropins\Subversive\eclipse\plugins\org.antlr.runtime_3.5.3.v20230929-1400.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.team.svn' version='5.1.0.v20250305-0809'>
+      <properties size='2'>
+        <property name='artifact.size' value='25299'/>
+        <property name='download.size' value='25299'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Java/Study-2/eclipse/dropins/Subversive/eclipse/plugins/org.eclipse.team.svn_5.1.0.v20250305-0809.jar'/>
+        <property name='file.name' value='C:\Java\Study-2\eclipse\dropins\Subversive\eclipse\plugins\org.eclipse.team.svn_5.1.0.v20250305-0809.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.team.svn.core.feature' version='5.1.0.v20250305-0809'>
+      <properties size='1'>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Java/Study-2/eclipse/dropins/Subversive/eclipse/features/org.eclipse.team.svn.core.feature_5.1.0.v20250305-0809/'/>
+        <property name='file.name' value='C:\Java\Study-2\eclipse\dropins\Subversive\eclipse\features\org.eclipse.team.svn.core.feature_5.1.0.v20250305-0809'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.team.svn.feature' version='5.1.0.v20250305-0809'>
+      <properties size='1'>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Java/Study-2/eclipse/dropins/Subversive/eclipse/features/org.eclipse.team.svn.feature_5.1.0.v20250305-0809/'/>
+        <property name='file.name' value='C:\Java\Study-2\eclipse\dropins\Subversive\eclipse\features\org.eclipse.team.svn.feature_5.1.0.v20250305-0809'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='ru.arsysop.svn.connectors.svnkit1_10.feature' version='1.0.0.v20250112-1200'>
+      <properties size='1'>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Java/Study-2/eclipse/dropins/Subversive/eclipse/features/ru.arsysop.svn.connectors.svnkit1_10.feature_1.0.0.v20250112-1200/'/>
+        <property name='file.name' value='C:\Java\Study-2\eclipse\dropins\Subversive\eclipse\features\ru.arsysop.svn.connectors.svnkit1_10.feature_1.0.0.v20250112-1200'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.team.svn.core' version='5.1.0.v20250305-0809'>
+      <properties size='2'>
+        <property name='artifact.size' value='1027128'/>
+        <property name='download.size' value='1027128'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Java/Study-2/eclipse/dropins/Subversive/eclipse/plugins/org.eclipse.team.svn.core_5.1.0.v20250305-0809.jar'/>
+        <property name='file.name' value='C:\Java\Study-2\eclipse\dropins\Subversive\eclipse\plugins\org.eclipse.team.svn.core_5.1.0.v20250305-0809.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.team.svn.discovery' version='5.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='19974'/>
+        <property name='download.size' value='19974'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Java/Study-2/eclipse/dropins/Subversive/eclipse/plugins/org.eclipse.team.svn.discovery_5.1.0.jar'/>
+        <property name='file.name' value='C:\Java\Study-2\eclipse\dropins\Subversive\eclipse\plugins\org.eclipse.team.svn.discovery_5.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.tmatesoft.sqljet.sqljet' version='1.1.15'>
+      <properties size='2'>
+        <property name='artifact.size' value='771891'/>
+        <property name='download.size' value='771891'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Java/Study-2/eclipse/dropins/Subversive/eclipse/plugins/org.tmatesoft.sqljet.sqljet_1.1.15.jar'/>
+        <property name='file.name' value='C:\Java\Study-2\eclipse\dropins\Subversive\eclipse\plugins\org.tmatesoft.sqljet.sqljet_1.1.15.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.regnis.q.sequence.sequence-library' version='1.0.4'>
+      <properties size='2'>
+        <property name='artifact.size' value='73940'/>
+        <property name='download.size' value='73940'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Java/Study-2/eclipse/dropins/Subversive/eclipse/plugins/de.regnis.q.sequence.sequence-library_1.0.4.jar'/>
+        <property name='file.name' value='C:\Java\Study-2\eclipse\dropins\Subversive\eclipse\plugins\de.regnis.q.sequence.sequence-library_1.0.4.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.team.svn.ui.capabilities' version='5.1.0.v20250305-0809'>
+      <properties size='2'>
+        <property name='artifact.size' value='12272'/>
+        <property name='download.size' value='12272'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Java/Study-2/eclipse/dropins/Subversive/eclipse/plugins/org.eclipse.team.svn.ui.capabilities_5.1.0.v20250305-0809.jar'/>
+        <property name='file.name' value='C:\Java\Study-2\eclipse\dropins\Subversive\eclipse\plugins\org.eclipse.team.svn.ui.capabilities_5.1.0.v20250305-0809.jar'/>
+      </repositoryProperties>
+    </artifact>
+  </artifacts>
+</repository>
