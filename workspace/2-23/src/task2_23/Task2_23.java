@@ -41,11 +41,13 @@ public class Task2_23 {
         // ⑤「〇〇が△△を学んでいます」という表示で山田さん、石谷さんが何を学んでいるか出力して下さい。
 
         // ここに解答]
-        Student tarou = new Student("山田太郎", Constants.LANGUAGE_JAVA);
+        Student tarou = new Student(yamada.getName(),yamada.getLanguage());
         tarou.studyLanguage();
-
-        Student hanako = new Student("石谷花子", Constants.LANGUAGE_HTML);
+        
+        Student hanako = new Student(ishitani.getName(),ishitani.getLanguage());     
         hanako.studyLanguage();
+       
+        
 
     }
 
