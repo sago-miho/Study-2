@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="common/head :: head_fragment(title = '新規登録', scripts = ~{::script}, links = ~{::link})"></head>
+
+<body>
+	<div class="container">
+		
+		<h1>新規登録</h1>
+		<form th:action="@{/beauty/create}" th:object="${beautyRequest}" th:method="post">
+
+			<div class="form-group">
+				<label>メーカー名：<span class="text-danger">※</span></label>
+				<span class="text-danger" th:if="${#fields.hasErrors('makerName')}" th:errors="*{makerName}"></span>
+				<input type="text" th:field="*{makerName}" class="form-control">
+
+			</div>
+
+			<div class="form-group">
+				<label>開催期間：<span class="text-danger">※</span></label>
+				<span class="text-danger" th:if="${#fields.hasErrors('period')}" th:errors="*{period}"></span>
+				<input type="text" th:field="*{period}" class="form-control">
+
+			</div>
+
+			<div class="form-group">
+				<label>エリア：<span class="text-danger">※</span></label>
+				<span class="text-danger" th:if="${#fields.hasErrors('area')}"th:errors="*{area}"></span>
+				<input type="text" th:field="*{area}" class="form-control">
+
+			</div>
+
+			<div class="form-group">
+				<label>会場名<span class="text-danger">※</span></label>
+				<span class="text-danger" th:if="${#fields.hasErrors('place')}" th:errors="*{place}"></span>
+				<input type="text" th:field="*{place}" class="form-control">
+
+			</div>
+
+			<br />
+			<div class="text-center">
+
+				<a href="/beauty/list" class="btn btn-secondary">キャンセル</a>
+				<input type="submit" value="登録" class="btn btn-primary">
+			</div>
+
+		</form>
+	</div>
+</body>
+
+</html>

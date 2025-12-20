@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns="http://www.thymeleaf.org">
+
+<head th:replace="common/head :: head_fragment(title = '【美容事業】催事スケジュール',scripts = ~{::script},links = ~{::link})"></head>
+
+<body>
+	<div class="container">
+		<h1>【美容事業】催事予定表</h1>
+		<div class="float-end">
+			<a th:href="@{/beauty/add}" class="btn btn-primary">追加</a>
+		</div>
+
+		<table class="table table-striped">
+			<thead>
+				<tr>
+					<th>ID</th>
+					<th>メーカー名</th>
+					<th>開催期間</th>
+					<th>エリア</th>
+					<th>会場名</th>
+				</tr>
+			</thead>
+
+			<tbody>
+			   <tr th:each="beauty : ${beautylist}" th:object="${beauty}" class="align-middle">
+			    <td th:text="*{Id}"></td>
+			    <td th:text="*{makerName}"></td>
+			    <td th:text="*{period}"></td>
+			    <td th:text="*{area}"></td>
+			    <td th:text="*{place}"></td>
+			    <td>
+			    <td><a th:href="@{/beauty/{id}(id=${beauty.id})}" class="btn btn-secondary">詳細</th></td>
+			   </tr>
+			  </tbody>
+			  
+				</tr>
+			</tbody>
+		</table>
+
+	</div>
+</body>
+
+</html>
