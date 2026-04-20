@@ -1,0 +1,14 @@
+.metadata.default/
+.metadata/
+.settings/
+.project
+.classpath
+bin/
+target/
+eclipse/
+node/
+workspace/
+.gradle/
+build/
+*.class
+java/
